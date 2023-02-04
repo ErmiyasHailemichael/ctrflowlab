@@ -149,6 +149,17 @@
 # the day number falls within a certain range.
 
 ############## CODE START HERE #################
+month = input('Enter the month of the season (Jan - Dec): ')
+day = int(input('Enter the day of the month: '))
 
+if (month == 'Dec' and day >= 21) or (month == 'Mar' and day <= 19):
+    season = 'Winter'
+elif (month == 'Mar' and day >= 20) or (month == 'Jun' and day <= 20):
+    season = 'Spring'
+elif (month == 'Jun' and day >= 21) or (month == 'Sep' and day <= 21):
+    season = 'Summer'
+elif (month == 'Sep' and day >= 22) or (month == 'Dec' and day <= 20):
+    season = 'Fall' 
+print(f'{month} {day} is in {season}')
 
 ############# CODE END HERE ####################
