@@ -51,6 +51,7 @@
 # Hint:  Use the int() function to convert the string returned from input() into an integer
 
 ############## CODE START HERE #################
+
 # dog_age = int(input('Input a dog\'s age in human years: '))
 # dog_years = 0
 
@@ -62,6 +63,7 @@
 # print(f'The dog\'s age in dog years is {dog_years}')
 
 ############# CODE END HERE ####################
+
 # exercise-04 What kind of Triangle?
 
 # Write the code that:
@@ -78,6 +80,16 @@
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
 
 ############## CODE START HERE #################
+
+# a= int(input('Enter the lengths of side of a triangle a: '))
+# b= int(input('Enter the lengths of side of a triangle b: '))
+# c= int(input('Enter the lengths of side of a triangle c: '))
+# if a == b == c:
+#     print(f'A triangle with sides of {a}, {b} & {c} is a equalateral triangle')
+# elif a != b != c:
+#     print(f'A triangle with sides of {a}, {b} & {c} is a scalene triangle')
+# else:
+#     print(f'A triangle with sides of {a}, {b} & {c} is a isosceles triangle')
 
 
 ############# CODE END HERE ####################
@@ -96,7 +108,24 @@
 #      etc.
 # Hint: The next number is found by adding the two numbers before it
 
+############## CODE START HERE #################
 
+# n1 = 0
+# n2 = 1
+# count = 0
+
+# print(f'term: {count} / number: {n1}')
+# print(f'term: {count+1} / number: {n2}')
+# count += 2
+
+# while count < 50:
+#     n3 = n1 + n2
+#     print(f'term: {count} / number: {n3}')
+#     n1 = n2
+#     n2 = n3
+#     count += 1
+
+############# CODE END HERE ####################
 
 # exercise-06 What's the  Season?
 
@@ -118,3 +147,8 @@
 # if input_month in ('Jan', 'Feb', 'Mar'):
 # After setting the likely season, you can use another if...elif...else statement to "adjust" if
 # the day number falls within a certain range.
+
+############## CODE START HERE #################
+
+
+############# CODE END HERE ####################
